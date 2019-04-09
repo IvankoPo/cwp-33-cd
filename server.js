@@ -18,7 +18,7 @@ module.exports = db => {
   app.use(bodyParser.json());
   app.use("/api", api);
   app.use("/", function(req, res) {
-    res.send("testing page 322");
+    res.send("testing page github");
   });
   return app;
 };
